@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>1111111111</sender>
+    <receiver>222222222222</receiver>
+    <testindicator>P</testindicator>
+    <docsrt>SA</docsrt>
+    <docnum>548177</docnum>
+    <docdtm>2003-06-27</docdtm>
+    <deldtm>2003-07-05</deldtm>
+    <ordernumber>ordernumber</ordernumber>
+    <totalinvoiceamount>12345.789</totalinvoiceamount>
+    <termsdiscountpercent>2.5</termsdiscountpercent>
+    <termsdiscountdaysdue>30</termsdiscountdaysdue>
+    <partys>
+        <party>
+            <qual>ST</qual>
+            <DUNS>0091372092527</DUNS>
+            <name1>SSSSSSSSSSS</name1>
+            <name2>SSSSSSSSSSSSe</name2>
+            <address1>SSSSSSSSSSSSSSSSSSSSSSS</address1>
+            <city>SSSSS</city>
+            <pcode>SSSSS</pcode>
+            <state>SS</state>
+        </party>
+        <party>
+            <qual>BT</qual>
+            <DUNS>0091372091700</DUNS>
+            <name1>SSSSSSSSSSS</name1>
+            <name2>NATIONAL SERVICES CENTER</name2>
+            <address1>SSSSSSSSSSSSSS</address1>
+            <city>SSSSSSS</city>
+            <pcode>SSSSS</pcode>
+            <state>SS</state>
+        </party>
+        <party>
+            <qual>VN</qual>
+            <DUNS>1234567890000</DUNS>
+            <name1>SSSSSSSSSSSSSSSSSS</name1>
+            <address1>SSSSSSSSS11111</address1>
+            <city>SSSSSSSSSSSS</city>
+            <pcode>11111</pcode>
+            <state>SS</state>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <suart>22222</suart>
+            <byart>20403041</byart>
+            <invqua>10</invqua>
+            <ordunit>CA</ordunit>
+            <desc>ITEM DESCRIPTION 1/10 LB</desc>
+            <price>12.5</price>
+        </line>
+        <line>
+            <suart>22222</suart>
+            <byart>20403041</byart>
+            <invqua>20</invqua>
+            <ordunit>CA</ordunit>
+            <desc>ITEM DESCRIPTION 1/10 LB</desc>
+            <price>12.5</price>
+        </line>
+        <line>
+            <suart>22222</suart>
+            <byart>20403041</byart>
+            <invqua>30</invqua>
+            <ordunit>CA</ordunit>
+            <desc>ITEM DESCRIPTION 1/10 LB</desc>
+            <price>12.5</price>
+        </line>
+        <line>
+            <suart>22222</suart>
+            <byart>20403041</byart>
+            <invqua>40</invqua>
+            <ordunit>CA</ordunit>
+            <desc>ITEM DESCRIPTION 1/10 LB</desc>
+            <price>12.5</price>
+        </line>
+        <line>
+            <suart>22222</suart>
+            <byart>20403041</byart>
+            <invqua>50</invqua>
+            <ordunit>CA</ordunit>
+            <desc>ITEM DESCRIPTION 1/10 LB</desc>
+            <price>12.5</price>
+        </line>
+    </lines>
+</message>

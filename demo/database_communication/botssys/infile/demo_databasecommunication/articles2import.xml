@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<articles>
+    <article>
+        <ccodeid>artikel</ccodeid>
+        <leftcode>leftcode</leftcode>
+        <rightcode>rightcode</rightcode>
+    </article>
+    <article>
+        <ccodeid>artikel</ccodeid>
+        <leftcode>leftcode2</leftcode>
+        <rightcode>rightcode</rightcode>
+    </article>
+    <article>
+        <ccodeid>artikel</ccodeid>
+        <leftcode>leftcode3</leftcode>
+        <rightcode>rightcode</rightcode>
+    </article>
+</articles>

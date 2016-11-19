@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>111111111</sender>
+    <receiver>Your ID</receiver>
+    <testindicator>P</testindicator>
+    <docsrt>SA</docsrt>
+    <docnum>111181</docnum>
+    <docdtm>2001-10-01</docdtm>
+    <deldtm>2001-10-11</deldtm>
+    <partys>
+        <party>
+            <qual>ST</qual>
+            <DUNS>7777777777777</DUNS>
+            <name1>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</name1>
+            <name2>XXXXXXXXXXXXXXXXXXXXXX</name2>
+            <address1>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</address1>
+            <city>XXXXXXX</city>
+            <pcode>XXXXXX</pcode>
+            <state>XX</state>
+        </party>
+        <party>
+            <qual>BT</qual>
+            <DUNS>2222222222220</DUNS>
+            <name1>XXXXXXXXXXXXXXXXXXXXXX</name1>
+            <name2>CORPORATE OFFICE</name2>
+            <address1>XXXXXXXXXXXXXXXXXXXXXXXX</address1>
+            <city>XXXXXXX</city>
+            <pcode>XXXXXX</pcode>
+            <state>XX</state>
+        </party>
+        <party>
+            <qual>VN</qual>
+            <DUNS>1234567890000</DUNS>
+            <name1>Your Company Name</name1>
+            <address1>216 COMMERCE PLACE</address1>
+            <city>XXXXXXX</city>
+            <pcode>XXXXXX</pcode>
+            <state>XX</state>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <suart>2222</suart>
+            <byart>22222203</byart>
+            <ordqua>20</ordqua>
+            <ordunit>CA</ordunit>
+            <desc>GROCERY ITEM DESCRIPTION          24/360 ML</desc>
+            <price>226.56</price>
+        </line>
+        <line>
+            <suart>11118</suart>
+            <byart>11111119</byart>
+            <ordqua>100</ordqua>
+            <ordunit>CA</ordunit>
+            <desc>RANDOM WEIGHT ITEM DESCRIPTION     1/PER KG</desc>
+            <price>2.82</price>
+        </line>
+    </lines>
+</message>

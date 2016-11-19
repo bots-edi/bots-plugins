@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>CLMERV</sender>
+    <receiver>YYYYYYYYYY</receiver>
+    <testindicator>P</testindicator>
+    <docsrt>SA</docsrt>
+    <docnum>4167427123</docnum>
+    <docdtm>2006-04-02</docdtm>
+    <ordernumber>ordernumber</ordernumber>
+    <totalinvoiceamount>12345.789</totalinvoiceamount>
+    <termsdiscountpercent>2.5</termsdiscountpercent>
+    <termsdiscountdaysdue>30</termsdiscountdaysdue>
+    <partys>
+        <party>
+            <qual>BY</qual>
+            <externalID>00996</externalID>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <linenum>1</linenum>
+            <gtin>499762800094</gtin>
+            <invqua>36</invqua>
+            <ordunit>EA</ordunit>
+            <desc>NOT APPLICABLE</desc>
+            <price>21</price>
+        </line>
+        <line>
+            <linenum>2</linenum>
+            <gtin>499762800308</gtin>
+            <invqua>24</invqua>
+            <ordunit>EA</ordunit>
+            <desc>NOT APPLICABLE</desc>
+            <price>20</price>
+        </line>
+    </lines>
+</message>

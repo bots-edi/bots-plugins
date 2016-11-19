@@ -1,0 +1,56 @@
+<html xmlns:py="http://genshi.edgewall.org/" py:strip="True">
+
+<div>
+    <h1>EDI Order</h1>
+     <table>
+        <tbody>
+            <tr py:if="'ORDERNUMMER' in data.header">   <td>Ordernummer</td><td>${data.header['ORDERNUMMER']}</td></tr>    
+            <tr py:if="'EANZENDER' in data.header">     <td>Zender</td><td>${data.header['EANZENDER']}</td></tr>    
+            <tr py:if="'EANONTVANGER' in data.header">  <td>Ontvanger</td><td>${data.header['EANONTVANGER']}</td></tr>    
+            <tr py:if="'TEST' in data.header and data.header['TEST']">  <td>Test</td><td>${data.header['TEST']}</td></tr>    
+            <tr py:if="'SOORTORDER' in data.header">    <td>Soort order</td><td>${data.header['SOORTORDER']}</td></tr>    
+            <tr py:if="'ORDERDATUM' in data.header">    <td>Orderdatum</td><td>${data.header['ORDERDATUM']}</td></tr>    
+            <tr py:if="'EANAFNEMER' in data.header">    <td>Afnemer</td><td>${data.header['EANAFNEMER']}</td></tr>    
+            <tr py:if="'EANLEVERANCIER' in data.header">    <td>Leverancier</td><td>${data.header['EANLEVERANCIER']}</td></tr>    
+            <tr py:if="'EANAFLEVER' in data.header and data.header['EANAFLEVER']">  <td>Leveradres</td><td>${data.header['EANAFLEVER']}</td></tr>    
+            <tr py:if="'EANHAALADRES' in data.header and data.header['EANHAALADRES']">  <td>Haaladres</td><td>${data.header['EANHAALADRES']}</td></tr>    
+            <tr py:if="'EANEINDBESTEMMING' in data.header and data.header['EANEINDBESTEMMING']">    <td>Eindbestemming</td><td>${data.header['EANEINDBESTEMMING']}</td></tr>    
+            <tr py:if="'LEVERDATUM' in data.header and data.header['LEVERDATUM']">  <td>Leverdatum</td><td>${data.header['LEVERDATUM']}</td></tr>    
+            <tr py:if="'VLEVERDATUM' in data.header and data.header['VLEVERDATUM']">    <td>Vroegste leverdatum</td><td>${data.header['VLEVERDATUM']}</td></tr>    
+            <tr py:if="'LLEVERDATUM' in data.header and data.header['LLEVERDATUM']">    <td>Laatste leverdatum</td><td>${data.header['LLEVERDATUM']}</td></tr>    
+            <tr py:if="'ACCIJNSVRIJ' in data.header and data.header['ACCIJNSVRIJ']">    <td>${data.header['ACCIJNSVRIJ']}</td></tr>    
+            <tr py:if="'GEIMPROVISEERD' in data.header and data.header['GEIMPROVISEERD']">  <td>${data.header['GEIMPROVISEERD']}</td></tr>    
+            <tr py:if="'INDICATIEONTVANGSTBEVESTIGING' in data.header and data.header['INDICATIEONTVANGSTBEVESTIGING']">    <td>${data.header['INDICATIEONTVANGSTBEVESTIGING']}</td></tr>    
+            <tr py:if="'BACKHAULING' in data.header and data.header['BACKHAULING']">    <td>${data.header['BACKHAULING']}</td></tr>    
+            <tr py:if="'SPOEDORDER' in data.header and data.header['SPOEDORDER']">  <td>${data.header['SPOEDORDER']}</td></tr>    
+            <tr py:if="'NULORDER' in data.header and data.header['NULORDER']">  <td>${data.header['NULORDER']}</td></tr>    
+            <tr py:if="'WINKELINSTALLATIE' in data.header and data.header['WINKELINSTALLATIE']">    <td> ${data.header['WINKELINSTALLATIE']}</td></tr>    
+            <tr py:if="'RAAMORDERNUMMER' in data.header and data.header['RAAMORDERNUMMER']">    <td>Raamordernummer</td><td>${data.header['ORDERNUMMER']}</td></tr>    
+            <tr py:if="'ACTIENUMMER' in data.header and data.header['ACTIENUMMER']">    <td>Actienummer</td><td>${data.header['ACTIENUMMER']}</td></tr>    
+        </tbody>
+    </table>
+    <br/>
+    <br/>
+     <table class="lines">
+        <thead>
+            <td>Regel</td>
+            <td>Artikel</td>
+            <td>Aantal</td>
+            <td>Promotiecode</td>
+            <td>Omschrijving</td>
+        </thead>
+        <tbody py:for="line in data.lines">
+            <tr>
+                <td py:if="'REGEL' in line">${line['REGEL']}</td>
+                <td py:if="'ARTIKEL' in line">${line['ARTIKEL']}</td>
+                <td py:if="'BESTELDAANTAL' in line">${line['BESTELDAANTAL']}</td>
+                <td py:if="'PROMOTIECODE' in line">${line['PROMOTIECODE']}</td>
+                <td py:if="'ARTIKELOMSCHRIJVING' in line">${line['ARTIKELOMSCHRIJVING']}</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+
+<small><u>BOTS Open Source Edi Software</u></small>
+</div>
+</html>

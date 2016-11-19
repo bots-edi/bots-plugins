@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>PARTNER1</sender>
+    <receiver>PARTNER2</receiver>
+    <docsrt>50E</docsrt>
+    <docnum>T0000000015</docnum>
+    <docdtm>20050819</docdtm>
+    <partys>
+        <party>
+            <qual>SU</qual>
+            <gln>PARTNER2</gln>
+        </party>
+        <party>
+            <qual>BY</qual>
+            <gln>PARTNER1</gln>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <linenum>1</linenum>
+            <gtin>2000100873151</gtin>
+            <ordqua>1</ordqua>
+        </line>
+    </lines>
+</message>

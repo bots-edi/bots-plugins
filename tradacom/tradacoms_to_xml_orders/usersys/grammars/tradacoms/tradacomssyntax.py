@@ -1,0 +1,3 @@
+syntax = { 
+        'checkcharsetout'   :   'ignore',
+        }

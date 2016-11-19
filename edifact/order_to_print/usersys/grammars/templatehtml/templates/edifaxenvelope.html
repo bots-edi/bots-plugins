@@ -1,0 +1,37 @@
+<html xmlns:py="http://genshi.edgewall.org/" xmlns:xi="http://www.w3.org/2001/XInclude">
+<head>
+  <title>Edifax</title>
+  <style type="text/css">
+    body,html {
+      font-family: sans-serif;
+      background-color: #FFFFFF;
+      padding: 10px;
+      }
+    table.lines {
+      border-collapse: collapse; 
+      border: 1px solid #000000;
+      }
+    table.lines td {
+      border: 1px solid #000000;
+      padding: 5px;
+      }
+    div.pageend {
+      page-break-after: always;
+      }
+    table.lines>thead>td {
+      font-weight: bold;
+      }
+    h1	{
+      font-size: 2ex;
+      font-weight: bold;
+      }	
+  </style>
+</head>
+
+<body>
+<div py:strip="True" py:for="message in data">
+  <xi:include href="${message}" />
+  <div class="pageend"/>
+</div>
+</body>
+</html>

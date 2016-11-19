@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>111111111</sender>
+    <receiver>YYYYYYYYYY</receiver>
+    <testindicator>P</testindicator>
+    <docnum>4167427123</docnum>
+    <docdtm>2006-04-02</docdtm>
+    <partys>
+        <party>
+            <qual>BY</qual>
+            <externalID>00996</externalID>
+        </party>
+        <party>
+            <qual>ST</qual>
+            <gln>00996</gln>
+        </party>
+    </partys>
+    <orders>
+        <order>
+            <ordernumber>ordernumber</ordernumber>
+            <orderdtm>2004-08-08</orderdtm>
+            <lines>
+                <line>
+                    <linenum>1</linenum>
+                    <gtin>499762800094</gtin>
+                    <delqua>36</delqua>
+                    <desc>NOT APPLICABLE</desc>
+                    <sscc>00123456781234567890</sscc>
+                </line>
+                <line>
+                    <linenum>2</linenum>
+                    <gtin>499762800308</gtin>
+                    <delqua>24</delqua>
+                    <desc>NOT APPLICABLE</desc>
+                    <sscc>00123456781234567891</sscc>
+                </line>
+            </lines>
+        </order>
+    </orders>
+</message>
