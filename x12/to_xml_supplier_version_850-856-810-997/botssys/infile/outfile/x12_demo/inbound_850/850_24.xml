@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>0011223456</sender>
+    <receiver>999999999</receiver>
+    <testindicator>P</testindicator>
+    <docsrt>SA</docsrt>
+    <docnum>95018017</docnum>
+    <docdtm>2007-09-29</docdtm>
+    <partys>
+        <party>
+            <qual>SE</qual>
+            <name1>UNIVERSAL WIDGETS</name1>
+            <address1>375 PLYMOUTH PARK</address1>
+            <address2>SUITE 205</address2>
+            <city>IRVING</city>
+            <pcode>75061</pcode>
+            <state>TX</state>
+        </party>
+        <party>
+            <qual>ST</qual>
+            <name1>JIT MANUFACTURING</name1>
+            <address1>BUILDING 3B</address1>
+            <address2>2001 ENTERPRISE PARK</address2>
+            <city>JUAREZ</city>
+            <state>CH</state>
+            <country>MEX</country>
+        </party>
+        <party>
+            <qual>AK</qual>
+            <name1>JIT MANUFACTURING</name1>
+            <address1>400 INDUSTRIAL PARKWAY</address1>
+            <city>INDUSTRIAL AIRPORT</city>
+            <pcode>66030</pcode>
+            <state>KS</state>
+        </party>
+        <party>
+            <qual>BT</qual>
+            <name1>JIT MANUFACTURING</name1>
+            <name2>ACCOUNTS  PAYABLE DEPARTMENT</name2>
+            <address1>400 INDUSTRIAL PARKWAY</address1>
+            <city>INDUSTRIAL AIRPORT</city>
+            <pcode>66030</pcode>
+            <state>KS</state>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <linenum>001</linenum>
+            <suart>X357-W2</suart>
+            <byart>525</byart>
+            <ordqua>4</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>HIGH PERFORMANCE WIDGET</desc>
+            <price>330</price>
+        </line>
+    </lines>
+</message>

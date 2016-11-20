@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>11111</sender>
+    <receiver>22222</receiver>
+    <testindicator>P</testindicator>
+    <docsrt>NE</docsrt>
+    <docnum>12345678</docnum>
+    <docdtm>2012-08-27</docdtm>
+    <partys>
+        <party>
+            <qual>ST</qual>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <linenum>1</linenum>
+            <gtin>999999999991</gtin>
+            <ordqua>25</ordqua>
+            <ordunit>EA</ordunit>
+        </line>
+        <line>
+            <linenum>2</linenum>
+            <gtin>999999999992</gtin>
+            <ordqua>30</ordqua>
+            <ordunit>EA</ordunit>
+        </line>
+    </lines>
+</message>

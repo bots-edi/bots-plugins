@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<envelope>
+    <message>
+        <sender>5000000000000</sender>
+        <sendername>SOME STORES LTD</sendername>
+        <receiver>5010000000000</receiver>
+        <receivername>SUPPLIER UK LTD</receivername>
+        <envid>000007</envid>
+        <envdtm>20070315130233</envdtm>
+        <applref>ORDHDR</applref>
+        <orgeditype>tradacoms</orgeditype>
+        <orgmessagetype>ORDHDR9</orgmessagetype>
+        <type>orders</type>
+        <version>1</version>
+        <docsrt>0430</docsrt>
+        <mesfunc>NEW-ORDERS</mesfunc>
+        <mesnum>1630</mesnum>
+        <docnum>70970</docnum>
+        <docdtm>20070315</docdtm>
+        <earldeldtm>20070321</earldeldtm>
+        <deltimefrom>0000</deltimefrom>
+        <partys>
+            <party>
+                <qual>SU</qual>
+                <gln>5010000000000</gln>
+                <bilnum>000030034</bilnum>
+            </party>
+            <party>
+                <qual>BY</qual>
+                <gln>5000000000000</gln>
+            </party>
+            <party>
+                <qual>DP</qual>
+                <gln>5000000000283</gln>
+                <name>EAST SOMEWHERE DEPOT</name>
+                <bilnum>89828</bilnum>
+            </party>
+        </partys>
+        <lines>
+            <line>
+                <num>60</num>
+                <gtin>5010210000000</gtin>
+                <byart>00893592</byart>
+                <numbergtincu>12</numbergtincu>
+                <desc>CRUSTY ROLLS</desc>
+            </line>
+        </lines>
+    </message>
+</envelope>

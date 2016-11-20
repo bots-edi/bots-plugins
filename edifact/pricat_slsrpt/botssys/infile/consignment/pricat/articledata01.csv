@@ -1,0 +1,4 @@
+"GTIN/EAN";"ArticleNumber";"Description";"Size";"Color";"BuyerProductGroup";"RetailPrice";"DateFrom";"PromoPrice";"DateUntill"
+8712345678906;123456;"Description article 123456";"L";"   white";"1234567890XXX";40;"       30-06-2008";"             ";"30-06-2008"
+8712345678906;123456;"Description article 123456";"L";;"1234567891XXX";40;"       30-06-2008";"             ";"30-06-2008"
+8712345678906;123456;"Description article 123456";"L";"   white";"1234567892XXX";40;"       30-06-2008";"30,00";"30-06-2008"

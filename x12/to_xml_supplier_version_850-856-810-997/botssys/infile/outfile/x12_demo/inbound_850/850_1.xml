@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>AAAAAAAAAA</sender>
+    <receiver>test22222</receiver>
+    <testindicator>P</testindicator>
+    <docsrt>SA</docsrt>
+    <docnum>91393058</docnum>
+    <docdtm>1997-11-07</docdtm>
+    <partys>
+        <party>
+            <qual>SF</qual>
+            <externalID>222</externalID>
+        </party>
+        <party>
+            <qual>BY</qual>
+            <externalID>33333</externalID>
+        </party>
+        <party>
+            <qual>ST</qual>
+            <externalID>333333</externalID>
+            <address1>AAAAAAAAAAA</address1>
+            <address2>AAAAAAAAAAAAAAAAAAA</address2>
+            <city>GUAYNABO</city>
+            <pcode>00928</pcode>
+            <state>PR</state>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <ordqua>6</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK S/S PRINT CAMP</desc>
+            <price>12</price>
+        </line>
+        <line>
+            <ordqua>6</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK S/S PRINT CAMP</desc>
+            <price>12</price>
+        </line>
+        <line>
+            <ordqua>6</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK PRINT SKIRT</desc>
+            <price>12</price>
+        </line>
+        <line>
+            <ordqua>6</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK PRINT SKIRT</desc>
+            <price>12</price>
+        </line>
+        <line>
+            <ordqua>6</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK S/S V-NK JKT TRM</desc>
+            <price>12</price>
+        </line>
+        <line>
+            <ordqua>6</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK S/S V-NK JKT TRM</desc>
+            <price>12</price>
+        </line>
+        <line>
+            <ordqua>6</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK PRINT PANT</desc>
+            <price>12</price>
+        </line>
+        <line>
+            <ordqua>6</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK PRINT PANT</desc>
+            <price>12</price>
+        </line>
+    </lines>
+</message>

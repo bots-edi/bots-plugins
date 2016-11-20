@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>SSSSSSSS</sender>
+    <receiver>QQQQQQ</receiver>
+    <testindicator>P</testindicator>
+    <docsrt>DS</docsrt>
+    <docnum>3768856</docnum>
+    <docdtm>2006-12-04</docdtm>
+    <deldtm>2006-12-05</deldtm>
+    <partys>
+        <party>
+            <qual>VN</qual>
+            <name1>WWWWWWWWWWW.</name1>
+            <address1>9181 WWWWWWWWWWWWWWWWW</address1>
+            <city>WWWWWWW</city>
+            <pcode>H8RZE8</pcode>
+            <state>PQ</state>
+            <country>CAN</country>
+        </party>
+        <party>
+            <qual>ST</qual>
+            <name1>SSSSSSSSSSSSSS</name1>
+            <address1>6755 SSSSS RD</address1>
+            <city>LONGVIEW</city>
+            <pcode>75605</pcode>
+            <state>TX</state>
+            <country>USA</country>
+        </party>
+        <party>
+            <qual>BT</qual>
+            <externalID>0252</externalID>
+            <name1>SSSSSSSSSS</name1>
+            <address1>20250 SSSSSSS</address1>
+            <city>SSSSSSSSSS</city>
+            <pcode>91311</pcode>
+            <state>SS</state>
+            <country>USA</country>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <linenum>1</linenum>
+            <suart>MT644</suart>
+            <ordqua>1</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>29X39" SILVER BEVELED GLASS OVAL MIRROR</desc>
+            <price>125</price>
+        </line>
+    </lines>
+</message>

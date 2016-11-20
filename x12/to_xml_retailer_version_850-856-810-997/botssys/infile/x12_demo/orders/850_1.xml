@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>PARTNER C</sender>
+    <receiver>SUPPLIER1</receiver>
+    <docsrt>SA</docsrt>
+    <docnum>91333338</docnum>
+    <docdtm>1997-11-07</docdtm>
+    <partys>
+        <party>
+            <qual>SF</qual>
+            <externalID>222</externalID>
+        </party>
+        <party>
+            <qual>BY</qual>
+            <externalID>33333</externalID>
+        </party>
+        <party>
+            <qual>ST</qual>
+            <externalID>333333</externalID>
+            <address1>AAAAAAAAAAA</address1>
+            <address2>AAAAAAAAAAAAAAAAAAA</address2>
+            <city>GUAYNABO</city>
+            <pcode>00928</pcode>
+            <state>PR</state>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <linenum>1</linenum>
+            <gtin>8712345678906</gtin>
+            <ordqua>6</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK S/S PRINT CAMP</desc>
+            <price>12</price>
+        </line>
+        <line>
+            <linenum>2</linenum>
+            <gtin>8712345678913</gtin>
+            <ordqua>12</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK S/S PRINT CAMP</desc>
+            <price>12</price>
+        </line>
+        <line>
+            <linenum>3</linenum>
+            <gtin>8712345678920</gtin>
+            <ordqua>60</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK PRINT SKIRT</desc>
+            <price>12</price>
+        </line>
+        <line>
+            <linenum>4</linenum>
+            <gtin>8712345678937</gtin>
+            <ordqua>2</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK PRINT SKIRT</desc>
+            <price>12</price>
+        </line>
+        <line>
+            <linenum>5</linenum>
+            <gtin>8712345678943</gtin>
+            <ordqua>6000</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>KAK S/S V-NK JKT TRM</desc>
+            <price>12</price>
+        </line>
+    </lines>
+</message>

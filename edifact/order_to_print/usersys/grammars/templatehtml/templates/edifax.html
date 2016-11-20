@@ -1,0 +1,55 @@
+<html xmlns:py="http://genshi.edgewall.org/" py:strip="True">
+
+<py:def function="node_table(node)">
+  <h1>${node.record['BOTSID']}</h1>
+  <table>
+    <tbody>
+      <py:for each="field in node.structure[6]">
+        <py:with vars="fieldID=field[0]">
+          <tr py:if="fieldID != 'BOTSID' and fieldID in node.record"><td>${fieldID}</td><td>${node.record[fieldID]}</td></tr>
+        </py:with>
+      </py:for>
+    </tbody>
+  </table>
+  <br/>
+</py:def>
+
+<py:def function="node_row(node_list)">
+  <h1>${node_list[0].record['BOTSID']}</h1>
+  <table class="lines">
+    <thead>
+      <py:for each="field in node_list[0].structure[6]">
+        <py:with vars="fieldID=field[0]">
+          <td py:if="fieldID != 'BOTSID'">${fieldID}</td>
+        </py:with>
+      </py:for>
+    </thead>
+    <tbody py:for="node in node_list">
+      <tr>
+        <py:for each="field in node.structure[6]">
+          <py:with vars="fieldID=field[0]">
+            <td py:if="fieldID != 'BOTSID'">${node.record.get(fieldID,'')}</td>
+          </py:with>
+        </py:for>
+      </tr>
+    </tbody>
+  </table>
+  <br/>
+</py:def>
+
+<py:def function="do_node(node,level=1)">
+  <!--!Recursively output node.-->
+  ${node_table(node)}
+  <py:for each="childnode in node.children">
+    <py:choose test="">
+      <py:when test="isinstance(childnode,list)">${node_row(childnode)}</py:when>
+      <py:otherwise test="">${do_node(childnode,level + 1)}</py:otherwise>
+    </py:choose>
+  </py:for>
+</py:def>
+
+<div>
+  ${do_node(node)}
+</div>
+
+</html>

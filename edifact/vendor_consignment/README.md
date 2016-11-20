@@ -1,0 +1,1 @@
+Originally from edifact_vendconsignment_2_0.zip

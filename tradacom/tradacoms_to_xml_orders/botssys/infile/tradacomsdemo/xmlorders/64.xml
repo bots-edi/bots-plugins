@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<envelope>
+    <message>
+        <sender>5011111111111</sender>
+        <sendername>CUSTOMER NAME</sendername>
+        <receiver>5013546099792</receiver>
+        <receivername>SONY UK</receivername>
+        <envid>000048</envid>
+        <envdtm>20010119165254</envdtm>
+        <applref>ORDHDR</applref>
+        <orgeditype>tradacoms</orgeditype>
+        <orgmessagetype>ORDHDR9</orgmessagetype>
+        <type>orders</type>
+        <version>1</version>
+        <docsrt>0430</docsrt>
+        <mesfunc>NEW-ORDERS</mesfunc>
+        <orcd>N</orcd>
+        <mesnum>23</mesnum>
+        <docnum>CUST-ORD-NO</docnum>
+        <docdtm>20010119</docdtm>
+        <earldeldtm>20010122</earldeldtm>
+        <partys>
+            <party>
+                <qual>SU</qual>
+                <gln>5013546099792</gln>
+                <name>SONY (UK) LTD</name>
+                <bilnum>SUP-CODE</bilnum>
+            </party>
+            <party>
+                <qual>BY</qual>
+                <gln>5011111111111</gln>
+                <name>CUSTOMER NAME</name>
+                <bilnum>CUST-CODE</bilnum>
+            </party>
+            <party>
+                <qual>DP</qual>
+                <gln>5022222222222</gln>
+                <name>CUSTOMER DEL LOC</name>
+                <addressline1>123 HIGH STREET</addressline1>
+                <addressline2>WEYBRIDGE</addressline2>
+                <addressline3>SURREY</addressline3>
+                <pcode>KT13 0XW</pcode>
+                <bilnum>CUST-LOC-CODE</bilnum>
+            </party>
+        </partys>
+        <lines>
+            <line>
+                <num>20</num>
+                <gtin>5013493014954</gtin>
+                <suart>KV29X5(S)</suart>
+                <byart>CUST-ITEM-CODE</byart>
+                <numbergtincu>1</numbergtincu>
+                <desc>SONY KV29X5 WITH STAND</desc>
+            </line>
+        </lines>
+    </message>
+</envelope>

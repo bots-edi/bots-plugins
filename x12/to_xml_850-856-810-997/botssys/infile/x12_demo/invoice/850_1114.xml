@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>111111111</sender>
+    <receiver>Duns</receiver>
+    <testindicator>P</testindicator>
+    <docsrt>SA</docsrt>
+    <docnum>801104</docnum>
+    <docdtm>2005-07-18</docdtm>
+    <ordernumber>ordernumber</ordernumber>
+    <totalinvoiceamount>12345.789</totalinvoiceamount>
+    <termsdiscountpercent>2.5</termsdiscountpercent>
+    <termsdiscountdaysdue>30</termsdiscountdaysdue>
+    <partys>
+        <party>
+            <qual>ST</qual>
+            <name1>THERMA TRU INDIANA DOOR</name1>
+            <address1>108 MUTZFELD ROAD</address1>
+            <city>BUTLER</city>
+            <pcode>46721</pcode>
+            <state>IN</state>
+            <country>USA</country>
+        </party>
+        <party>
+            <qual>BT</qual>
+            <name1>THERMA TRU INDIANA DOOR</name1>
+            <address1>108 MUTZFELD ROAD</address1>
+            <city>BUTLER</city>
+            <pcode>46721</pcode>
+            <state>IN</state>
+            <country>USA</country>
+        </party>
+        <party>
+            <qual>VN</qual>
+            <name1>Supplier Name</name1>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <linenum>0001</linenum>
+            <byart>MPDGART</byart>
+            <invqua>8</invqua>
+            <ordunit>CR</ordunit>
+            <desc>LOCK HARDWARE 8/0 LOCK GEAR TONGUE</desc>
+            <price>0</price>
+        </line>
+        <line>
+            <linenum>0002</linenum>
+            <byart>MPDGSBOS</byart>
+            <invqua>1</invqua>
+            <ordunit>CR</ordunit>
+            <desc>LOCK HARDWARE 6/6 LOCK GEAR SHOOT BOLT OUTSWING</desc>
+            <price>0</price>
+        </line>
+        <line>
+            <linenum>0003</linenum>
+            <byart>MPTS112374-1C</byart>
+            <invqua>80</invqua>
+            <ordunit>EA</ordunit>
+            <desc>HANDLESET ACTIVE HEIRLOOM BRUSHED NICKEL</desc>
+            <price>0</price>
+        </line>
+    </lines>
+</message>

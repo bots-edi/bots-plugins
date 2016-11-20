@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>CCCCCC</sender>
+    <receiver>YYYYYYYYYY</receiver>
+    <testindicator>P</testindicator>
+    <docsrt>SA</docsrt>
+    <docnum>1234512345</docnum>
+    <docdtm>2006-02-10</docdtm>
+    <partys>
+        <party>
+            <qual>BY</qual>
+            <externalID>00996</externalID>
+            <name1>CCCCCCCCCCCCCCCC</name1>
+            <address1>CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC</address1>
+            <city>CCCCCCC</city>
+            <pcode>91761</pcode>
+            <state>CC</state>
+            <country>US</country>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <linenum>1</linenum>
+            <gtin>499565911171</gtin>
+            <ordqua>2</ordqua>
+            <ordunit>EA</ordunit>
+            <desc>ASSORTMENT ASSORTM NC NoSz SLID01</desc>
+            <price>37.65</price>
+        </line>
+    </lines>
+</message>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>SENDER</sender>
+    <receiver>PARTNER2</receiver>
+    <testindicator>P</testindicator>
+    <docnum>4167427123</docnum>
+    <docdtm>2006-04-02</docdtm>
+    <shipdtm>2006-04-02</shipdtm>
+    <scac>SCAC</scac>
+    <bol>bill of lading number</bol>
+    <carrierreferencenumber>carrierreferencenumber</carrierreferencenumber>
+    <partys>
+        <party>
+            <qual>SE</qual>
+            <name1>UNIVERSAL WIDGETS</name1>
+            <address1>375 PLYMOUTH PARK</address1>
+            <address2>SUITE 205</address2>
+            <city>IRVING</city>
+            <pcode>75061</pcode>
+            <state>TX</state>
+        </party>
+        <party>
+            <qual>ST</qual>
+            <name1>JIT MANUFACTURING</name1>
+            <address1>BUILDING 3B</address1>
+            <address2>2001 ENTERPRISE PARK</address2>
+            <city>JUAREZ</city>
+            <state>CH</state>
+            <country>MEX</country>
+        </party>
+        <party>
+            <qual>AK</qual>
+            <name1>JIT MANUFACTURING</name1>
+            <address1>400 INDUSTRIAL PARKWAY</address1>
+            <city>INDUSTRIAL AIRPORT</city>
+            <pcode>66030</pcode>
+            <state>KS</state>
+        </party>
+        <party>
+            <qual>BT</qual>
+            <name1>JIT MANUFACTURING</name1>
+            <name2>ACCOUNTS  PAYABLE DEPARTMENT</name2>
+            <address1>400 INDUSTRIAL PARKWAY</address1>
+            <city>INDUSTRIAL AIRPORT</city>
+            <pcode>66030</pcode>
+            <state>KS</state>
+        </party>
+    </partys>
+    <orders>
+        <order>
+            <ordernumber>ordernumber1</ordernumber>
+            <orderdtm>2004-08-09</orderdtm>
+            <lines>
+                <line>
+                    <linenum>1</linenum>
+                    <gtin>8712345678906</gtin>
+                    <suart>suart</suart>
+                    <byart>byart</byart>
+                    <delqua>36</delqua>
+                    <ordqua>36</ordqua>
+                    <desc>description</desc>
+                    <sscc>00123456781234567890</sscc>
+                </line>
+                <line>
+                    <linenum>2</linenum>
+                    <gtin>8712345678913</gtin>
+                    <delqua>24</delqua>
+                    <ordqua>36</ordqua>
+                    <desc>description</desc>
+                    <sscc>00123456781234567891</sscc>
+                    <suart>suart</suart>
+                    <byart>byart</byart>
+                </line>
+            </lines>
+        </order>
+        <order>
+            <ordernumber>ordernumber2</ordernumber>
+            <orderdtm>2004-08-10</orderdtm>
+            <lines>
+                <line>
+                    <linenum>3</linenum>
+                    <gtin>8712345678906</gtin>
+                    <suart>suart</suart>
+                    <byart>byart</byart>
+                    <delqua>36</delqua>
+                    <ordqua>36</ordqua>
+                    <desc>description</desc>
+                    <sscc>00123456781234567892</sscc>
+                </line>
+                <line>
+                    <linenum>4</linenum>
+                    <gtin>8712345678913</gtin>
+                    <delqua>24</delqua>
+                    <ordqua>36</ordqua>
+                    <desc>description</desc>
+                    <sscc>00123456781234567893</sscc>
+                    <suart>suart</suart>
+                    <byart>byart</byart>
+                </line>
+                <line>
+                    <linenum>5</linenum>
+                    <gtin>8712345678920</gtin>
+                    <delqua>24</delqua>
+                    <ordqua>24</ordqua>
+                    <desc>description</desc>
+                    <sscc>00123456781234567892</sscc>
+                    <suart>suart</suart>
+                    <byart>byart</byart>
+                </line>
+            </lines>
+        </order>
+        <order>
+            <ordernumber>ordernumber4</ordernumber>
+            <orderdtm>2004-08-11</orderdtm>
+            <lines>
+                <line>
+                    <linenum>6</linenum>
+                    <gtin>8712345678906</gtin>
+                    <suart>suart</suart>
+                    <byart>byart</byart>
+                    <delqua>36</delqua>
+                    <ordqua>36</ordqua>
+                    <desc>description</desc>
+                    <sscc>00123456781234567897</sscc>
+                </line>
+            </lines>
+        </order>
+    </orders>
+</message>

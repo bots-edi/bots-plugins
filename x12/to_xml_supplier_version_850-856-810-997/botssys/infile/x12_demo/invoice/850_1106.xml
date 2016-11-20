@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>SSSSSSSS</sender>
+    <receiver>QQQQQQ</receiver>
+    <testindicator>P</testindicator>
+    <docsrt>DS</docsrt>
+    <docnum>3769108</docnum>
+    <docdtm>2006-12-04</docdtm>
+    <deldtm>2006-12-05</deldtm>
+    <ordernumber>ordernumber</ordernumber>
+    <totalinvoiceamount>12345.789</totalinvoiceamount>
+    <termsdiscountpercent>2.5</termsdiscountpercent>
+    <termsdiscountdaysdue>30</termsdiscountdaysdue>
+    <partys>
+        <party>
+            <qual>VN</qual>
+            <name1>REN-WIL INC.</name1>
+            <address1>9181 RUE BOLVIN STREET</address1>
+            <city>LASALLE</city>
+            <pcode>H8RZE8</pcode>
+            <state>PQ</state>
+            <country>CAN</country>
+        </party>
+        <party>
+            <qual>ST</qual>
+            <name1>KATHLEEN HALL</name1>
+            <address1>488 LINDBERGH AVE</address1>
+            <address2>ALL PHASE BUILDERS</address2>
+            <city>LIVERMORE</city>
+            <pcode>94551</pcode>
+            <state>CA</state>
+            <country>USA</country>
+        </party>
+        <party>
+            <qual>BT</qual>
+            <externalID>0253</externalID>
+            <name1>LAMPS PLUS</name1>
+            <address1>20250 PLUMMER</address1>
+            <city>CHATSWORTH</city>
+            <pcode>91311</pcode>
+            <state>CA</state>
+            <country>USA</country>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <linenum>1</linenum>
+            <suart>MIR020</suart>
+            <invqua>2</invqua>
+            <ordunit>EA</ordunit>
+            <desc>26X30" OVAL CLASSIC MIRROR</desc>
+            <price>85.5</price>
+        </line>
+    </lines>
+</message>

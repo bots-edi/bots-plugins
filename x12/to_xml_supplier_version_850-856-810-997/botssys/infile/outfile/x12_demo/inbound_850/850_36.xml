@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>1111111111111</sender>
+    <receiver>22222222222</receiver>
+    <testindicator>T</testindicator>
+    <docsrt>DS</docsrt>
+    <docnum>333333333333</docnum>
+    <docdtm>2012-06-29</docdtm>
+    <partys>
+        <party>
+            <qual>ST</qual>
+            <name1>XXXXXXXXXXX</name1>
+            <name2>XXXXX XXXXXXXXX</name2>
+            <address1>1111 XX XXXXXXXX XXXX</address1>
+            <address2>XXXXXXXXXXXXXXXXX</address2>
+            <city>XXX XXXXXX</city>
+            <pcode>XXXXX</pcode>
+            <state>XX</state>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <linenum>0001</linenum>
+            <suart>123456789012345</suart>
+            <byart>666666</byart>
+            <ordqua>1</ordqua>
+            <ordunit>EA</ordunit>
+            <price>11.11</price>
+        </line>
+    </lines>
+</message>

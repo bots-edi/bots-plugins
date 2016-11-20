@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<message>
+    <sender>111111111</sender>
+    <receiver>Your ID</receiver>
+    <testindicator>P</testindicator>
+    <docsrt>SA</docsrt>
+    <docnum>520981</docnum>
+    <docdtm>2001-10-01</docdtm>
+    <deldtm>2001-10-11</deldtm>
+    <partys>
+        <party>
+            <qual>ST</qual>
+            <DUNS>2100988521100</DUNS>
+            <name1>MACDONALDS CO A DIV. OF CANADA SAFE</name1>
+            <name2>CENTRAL GM/HBC CALGARY</name2>
+            <address1>7505 48th St. S.E., Unit 100</address1>
+            <city>Calgary</city>
+            <pcode>T2C4C7</pcode>
+            <state>AB</state>
+        </party>
+        <party>
+            <qual>BT</qual>
+            <DUNS>2100988529600</DUNS>
+            <name1>CANADA SAFEWAY LIMITED</name1>
+            <name2>CORPORATE OFFICE</name2>
+            <address1>P. O BOX 2095, STATION M</address1>
+            <city>CALGARY</city>
+            <pcode>T2P2M4</pcode>
+            <state>AB</state>
+        </party>
+        <party>
+            <qual>VN</qual>
+            <DUNS>1234567890000</DUNS>
+            <name1>Your Company Name</name1>
+            <address1>216 COMMERCE PLACE</address1>
+            <city>CALGARY</city>
+            <pcode>T2W6B1</pcode>
+            <state>AB</state>
+        </party>
+    </partys>
+    <lines>
+        <line>
+            <suart>4531</suart>
+            <byart>71039103</byart>
+            <ordqua>20</ordqua>
+            <ordunit>CA</ordunit>
+            <desc>Grocery Item Description                  24/360 ML</desc>
+            <price>226.56</price>
+        </line>
+        <line>
+            <suart>19828</suart>
+            <byart>30100219</byart>
+            <ordqua>100</ordqua>
+            <ordunit>CA</ordunit>
+            <desc>Random Weight Item Description            1/PER KG</desc>
+            <price>2.82</price>
+        </line>
+    </lines>
+</message>
